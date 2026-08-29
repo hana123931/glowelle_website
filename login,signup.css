@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+height: 100vh;
+background-color:#E6B6C1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+    width: 750px;
+    height: 420px;
+    background: white;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.left {
+    width: 40%;
+    background-color: #cf8d9c;
+    color: white;
+    padding: 40px 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h2 {
+    margin-bottom: 15px;
+}
+
+.left p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.ghost-btn {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.right {
+    width: 60%;
+    padding: 40px;
+    text-align: center;
+}
+
+.right h2 {
+    margin-bottom: 20px;
+    color: #ff5f8fb8;
+}
+
+.right input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.right input:focus {
+    border-color:#ff5f8fb8 ;
+}
+
+.main-btn {
+    padding: 12px;
+    background-color: #ff5f8fb8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main-btn:hover {
+    background-color: #cf8d9c;
+}
+
+.forgot-text {
+    text-align: right;
+    color: #cf8d9c;
+    font-size: 14px;
+margin: 5px 0 15px 0;
+}
+
+.signup-link {
+    color: #ff5f8fb8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    color: #cf8d9c;
+    text-decoration: underline;
+}
+.footer{
+    background-color:rgba(255,255, 255, 0.3);
+    text-align: center;
+    padding: 10px 0px;
+    font-family: sans-serif;
+    color: #bd2457;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+  }
+   
+   .footer p{
+    margin: 0;
+    font-size: 14px;
+   }
